@@ -3,6 +3,9 @@ let
 in
   pkgs.mkShell {
     packages = [
+
+      pkgs.wlroots_0_17
+      pkgs.wayland
       pkgs.gtest
       pkgs.pkg-config
       pkgs.cmake
@@ -10,6 +13,5 @@ in
       pkgs.ninja
       pkgs.libinput
       pkgs.wayland-scanner
-      pkgs.waylandpp
     ];
   }
