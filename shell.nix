@@ -4,6 +4,8 @@ in
   pkgs.mkShell {
     packages = [
 
+      pkgs.libxkbcommon
+      pkgs.pixman
       pkgs.wlroots_0_17
       pkgs.wayland
       pkgs.gtest
