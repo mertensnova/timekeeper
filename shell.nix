@@ -2,12 +2,11 @@ let
   pkgs = import <nixpkgs> {};
 in
   pkgs.mkShell {
+     buildInputs = [ pkgs.wayland pkgs.wayland-protocols ];
     packages = [
-pkgs.wlr-protocols
       pkgs.libxkbcommon
       pkgs.pixman
       pkgs.wlroots_0_17
-      pkgs.wayland
       pkgs.gtest
       pkgs.pkg-config
       pkgs.cmake
