@@ -1,1 +1,0 @@
-/nix/store/zznja5f8v3jafffyah1rk46vpfcn38dv-gcc-wrapper-13.3.0/bin/gcc CMakeFiles/wlroots_focused_window.dir/main.c.o -o wlroots_focused_window  -lwlroots -lwayland-server

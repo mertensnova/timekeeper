@@ -1,3 +1,0 @@
-/home/mertens/Desktop/Projects/activiy/build/CMakeFiles/wlroots_focused_window.dir
-/home/mertens/Desktop/Projects/activiy/build/CMakeFiles/edit_cache.dir
-/home/mertens/Desktop/Projects/activiy/build/CMakeFiles/rebuild_cache.dir
