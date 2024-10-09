@@ -3,7 +3,8 @@ let
 in
   pkgs.mkShell {
      buildInputs = [ pkgs.wayland pkgs.wayland-protocols ];
-    packages = [
+     packages = [
+pkgs.wayland-protocols 
       pkgs.libxkbcommon
       pkgs.pixman
       pkgs.wlroots_0_17
@@ -13,6 +14,5 @@ in
       pkgs.meson
       pkgs.ninja
       pkgs.libinput
-      pkgs.wayland-scanner
     ];
   }
